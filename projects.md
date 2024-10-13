@@ -14,9 +14,9 @@ My name is Seokju.Park. I have the following qualities:
 
 
 permalink	title	excerpt	search	last_modified_at	toc
-/about/
-About
-BLOG
+/projects/
+projects
+projects
 true
 2024-10-01 07:09:19 +0900
 true

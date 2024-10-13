@@ -10,7 +10,7 @@ My name is Seokju.Park. I have the following qualities:
 - I'm extremely loyal to my family
 
 permalink	title	excerpt	search	last_modified_at	toc
-/AboutMe/
+/aboutme/
 AboutMe
 AboutMe
 true

@@ -235,7 +235,7 @@ footer-hover-col: "#0085A1"
 # (3) Fill in *all* the parameters below
 # See more details about giscus and each of the following parameters at
 # Giscus options ›  https://giscus.app
-#giscus:
+giscus:
 #  hostname: giscus.app # Replace with your giscus instance's hostname if self-hosting
   repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
   repository-id: # ID of your repository, retrieve this info from https://giscus.app

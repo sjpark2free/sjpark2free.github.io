@@ -21,7 +21,7 @@ author: seokju.Park
 
 navbar-links:
   About Me: "aboutme"
-  Project: "Project"
+  Project: "projects"
   Blog: "Blog"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"

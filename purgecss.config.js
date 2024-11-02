@@ -11,7 +11,7 @@ fs.rm(DIST_PATH, { recursive: true, force: true }, (err) => {
 
 module.exports = {
   content: ['_includes/**/*.md', '_includes/**/*.html', '_layouts/**/*.html', '_javascript/**/*.js'],
-  css: ['assert/**/bootstrap.min.css'],
+  css: ['assert/css/bootstrap.min.css'],
   keyframes: true,
   variables: true,
   output: `${DIST_PATH}/bootstrap.css`,

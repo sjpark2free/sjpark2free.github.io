@@ -22,7 +22,7 @@ author: seokju.Park
 navbar-links:
   About Me: "aboutme"
   Project: "projects"
-  Blog: "Blog"
+  Blog: "blog"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
@@ -302,14 +302,14 @@ plugins:
   - jekyll-sitemap
   
   # -----------------Add Section
-#jekyll-archives:
-#  enabled: [categories, tags]
- # layouts:
-  #  category: category
-   # tag: tag
-  #permalinks:
-  #  tag: /tags/:name/
-  #  category: /categories/:name/
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
   
 
 # Beautiful Jekyll / Dean Attali

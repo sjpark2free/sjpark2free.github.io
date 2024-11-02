@@ -23,10 +23,10 @@ navbar-links:
   About Me: "aboutme"
   Project: "projects"
   Blog: "blog"
+  Archives: ""
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  
 
 ################
 # --- Logo --- #
@@ -234,6 +234,21 @@ footer-hover-col: "#0085A1"
 # (2) Install the giscus app in your repository (details at https://giscus.app),
 # (3) Fill in *all* the parameters below
 # See more details about giscus and each of the following parameters at
+
+
+
+
+comments:
+  # Global switch for the post-comment system. Keeping it empty means disabled.
+  provider: # [disqus | utterances | giscus]
+  # The provider options are as follows:
+  disqus:
+    shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  # utterances settings › https://utteranc.es/
+  utterances:
+    repo: # <gh-username>/<repo>
+    issue_term: # < url | pathname | title | ...>
+  # Giscus options › https://giscus.app
 # Giscus options ›  https://giscus.app
 giscus:
 #  hostname: giscus.app # Replace with your giscus instance's hostname if self-hosting
@@ -280,11 +295,13 @@ defaults:
       layout: "post"
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
+      toc: true # Display TOC column in posts.
   -
     scope:
       path: "" # any file that's not a post will be a "page" layout by default
     values:
       layout: "page"
+      permalink: /:title/
 
 # Exclude these files from production site
 exclude:

@@ -301,15 +301,15 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   
-  # -----------------Add Section 
-jekyll-archives:
-  enabled: [categories, tags]
-  layouts:
-    category: category
-    tag: tag
-  permalinks:
-    tag: /tags/:name/
-    category: /categories/:name/
+  # -----------------Add Section
+#jekyll-archives:
+#  enabled: [categories, tags]
+ # layouts:
+  #  category: category
+   # tag: tag
+  #permalinks:
+  #  tag: /tags/:name/
+  #  category: /categories/:name/
   
 
 # Beautiful Jekyll / Dean Attali

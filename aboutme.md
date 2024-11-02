@@ -4,13 +4,28 @@ title: About me
 subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Seokju.Park. I have the following qualities:
 
 - I rock a great mustache
 - I'm extremely loyal to my family
 
-What else do you need?
 
-### My story
+### Name & Major
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+* NAME : 박석주
+* MAJOR : 인공지능학과/빅데이터.정보보호학과
+
+### Career & Activities
+
+서울사이버대학교 3학년 재학중
+### Current Interest
+
+* 데이터 분석
+* 데이터 시각화
+* 딥러닝
+
+### Contact
+
+* Email : sjpark.free@gmail.com
+* Git : https://github.com/sjpark2free
+* Blog : https://sjpark2free.github.io/

@@ -32,7 +32,7 @@ navbar-links:
 
 
 
-url: "sjpark2free.github.io"
+# url: "sjpark2free.github.io"
 ################
 # --- Logo --- #
 ################
@@ -107,7 +107,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "/aboutme/" ## sjpark block code
+# url-pretty: "/aboutme/" ## sjpark block code
 
 # Add the website title to the title of every page
 title-on-all-pages: true

@@ -5,7 +5,7 @@ subtitle: Why you'd want to go on a date with me
 #permalink: /post/
 ---
 
-#{{ content }}
+{{ content }}
 
 
 {% assign posts = paginator.posts | default: site.posts %}

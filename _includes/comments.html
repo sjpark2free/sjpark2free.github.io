@@ -1,8 +1,5 @@
-{% if page.comments %}
-  {% include disqus.html %}
-  {% include fb-comment.html %}
-  {% include staticman-comments.html %}
-  {% include utterances-comment.html %}
-  {% include giscus-comment.html %}
-  {% include commentbox.html %}
+<!-- The comments switcher -->
+{% if page.comments and site.comments.provider %}
+  {% capture path %}comments/{{ site.comments.provider }}.html{% endcapture %}
+  {% include {{ path }} %}
 {% endif %}

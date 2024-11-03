@@ -102,18 +102,21 @@ layout: page
                     {% for category in post.categories %}
                       {{ category }}
                       {%- unless forloop.last -%},{%- endunless -%}
+                      <li class="list-inline-item">
+            <a href="{{ '/tags' | absolute_url }}#{{- tag -}}">{{- category -}}</a>
+          </li>
                     {% endfor %}
                   </span>
                 {% endif %}
                 
-                
+                <!-- 
                    {% if post.pin %}
                 <div class="pin ms-1">
                   <i class="fas fa-thumbtack fa-fw"></i>
                   <span>{{ site.data.locales[lang].post.pin_prompt }}</span>
                 </div>
               {% endif %}
-
+-->
 
       
       

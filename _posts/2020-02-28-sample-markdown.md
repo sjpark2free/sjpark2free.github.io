@@ -1,9 +1,9 @@
 ---
-title: Text and Typography
+title: sample markdown
 description: Examples of text, typography, math equations, diagrams, flowcharts, pictures, videos, and more.
 author: cotes
 date: 2019-08-08 11:33:00 +0800
-categories: [Blogging, Demo]
+categories: [Blogging, test]
 tags: [typography]
 pin: true
 math: true

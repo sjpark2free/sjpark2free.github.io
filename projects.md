@@ -17,12 +17,4 @@ subtitle: 그 동안 진행 하였던 큰 프로젝트들
 - 2013 ~ : [만도](https://hlmando.com/ko/main.do)  : PLM 구축 , SAP ERP, CAA ,BOM/Documents,설계 변경 관리 업무, 모바일 업무 지원
 
 
-### 사용 가능 언어
-- C++
-- C# , ASP , .NET
-- Delphi
-- JAVA (Front end, Back end)
-- ENOVIA (DS Solution)
-- SMARTEAM  (DS Solution)
-- 모바일 :iOS , Android
-- ETC : xCODE , COCOA
+

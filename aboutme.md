@@ -24,6 +24,17 @@ My name is Seokju.Park. I have the following qualities:
 * 데이터 시각화
 * 딥러닝
 
+### 사용 가능 언어
+- C++
+- C# , ASP , .NET
+- Delphi
+- JAVA (Front end, Back end)
+- ENOVIA (DS Solution)
+- SMARTEAM  (DS Solution)
+- 모바일 :iOS , Android
+- ETC : xCODE , COCOA
+
+
 ### Contact
 
 * Email : sjpark.free@gmail.com

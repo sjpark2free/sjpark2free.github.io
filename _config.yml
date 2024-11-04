@@ -33,7 +33,7 @@ navbar-links:
 
 
  url: "https://sjpark2free.github.io"
- baseurl: ""
+ # baseurl: ""
 ################
 # --- Logo --- #
 ################

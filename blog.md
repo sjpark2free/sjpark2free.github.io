@@ -3,7 +3,7 @@ layout: page
 title: BLOG
 subtitle: Why you'd want to go on a date with me
 ---
-
+{{ content }}
 <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
 <ul class="posts-list list-unstyled" role="list">
   {% for post in posts %}

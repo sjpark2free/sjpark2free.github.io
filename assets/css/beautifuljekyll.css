@@ -3,7 +3,7 @@ layout: null
 ---
 
 @import url("pygment_highlights.css");
-@import url("main.bundle.scss");
+@import url("main.bundle.css");
 @import 'main
 {%- if jekyll.environment == 'production' -%}
   .bundle

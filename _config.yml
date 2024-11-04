@@ -32,7 +32,8 @@ navbar-links:
 
 
 
-# url: "sjpark2free.github.io"
+ url: "sjpark2free.github.io"
+ baseurl: ""
 ################
 # --- Logo --- #
 ################
@@ -274,6 +275,7 @@ assets:
     # only works if `assets.self_host.enabled` is 'true'
     env: production # [development | production]
   
+  remote_theme : ""
 
 ################
 # --- Misc --- #

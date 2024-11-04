@@ -43,8 +43,8 @@ title: 'Tag/Category Index'
 {%- endcapture -%}
 {%- assign categories_list = site_categories | split:',' | sort -%}
 
-{%- for tag in categories_list -%}
-    <a href="#{{- category -}}" class="btn btn-primary category-btn"><i class="fas fa-category" aria-hidden="true"></i>&nbsp;{{- tag -}}&nbsp;({{site.categories[category].size}})</a>
+{%- for category in categories_list -%}
+    <a href="#{{- category -}}" class="btn btn-primary category-btn"><i class="fas fa-category" aria-hidden="true"></i>&nbsp;{{- category -}}&nbsp;({{site.categories[category].size}})</a>
 {%- endfor -%}
 
 <div id="full-categories-list">

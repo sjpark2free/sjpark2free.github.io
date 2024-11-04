@@ -11,6 +11,7 @@
 
 # Name of website
 title: My website
+url: "https://sjpark2free.github.io"
 
 # Your name to show in the footer
 author: seokju.Park
@@ -32,7 +33,7 @@ navbar-links:
 
 
 
-#url: "https://sjpark2free.github.io"
+
  # baseurl: ""
 ################
 # --- Logo --- #

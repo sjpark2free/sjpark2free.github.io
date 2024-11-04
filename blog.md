@@ -1,9 +1,9 @@
 ---
-layout: page
+layout: post
 title: BLOG
 subtitle: Why you'd want to go on a date with me
 ---
-{{ content }}
+{% assign posts = paginator.posts | default: site.posts %}
 <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
 <ul class="posts-list list-unstyled" role="list">
   {% for post in posts %}
@@ -99,7 +99,7 @@ subtitle: Why you'd want to go on a date with me
 </ul>
 
 
- {% assign posts = paginator.posts | default: site.posts %}
+ 
 {% if paginator.total_pages > 1 %}
 <ul class="pagination main-pager">
   {% if paginator.previous_page %}

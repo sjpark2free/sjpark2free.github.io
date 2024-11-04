@@ -7,11 +7,7 @@ layout: null
 @import "main.bundle";
 
 
-@import 'main
-{%- if jekyll.environment == 'production' -%}
-  .bundle
-{%- endif -%}
-';
+
 
 
 

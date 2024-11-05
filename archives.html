@@ -5,34 +5,20 @@ title: Achive
 subtitle: 그 동안 진행 하였던 큰 프로젝트들
 ---
 
-{% include lang.html %}
+{% assign posts = site.posts | sort: "date" | reverse %}
 
-{% assign df_strftime_m = site.data.locales[lang].df.archives.strftime | default: '/ %m' %}
-{% assign df_dayjs_m = site.data.locales[lang].df.archives.dayjs | default: '/ MM' %}
-
-<div id="archives" class="pl-xl-3">
-
-{% for post in site.posts %}
-  {% capture cur_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-
-  {% if cur_year != last_year %}
-    {% unless forloop.first %}</ul>{% endunless %}
-    <div class="year lead">{{ cur_year }}</div>
-    <ul class="list-unstyled">
-    {% assign last_year = cur_year %}
-  {% endif %}
-
-  <li>
-  {% assign ts = post.date | date: '%s' %}
-    <span class="date day" data-ts="{{ ts }}" data-df="DD">{{ post.date | date: "%d" }}</span>
-    <span class="date month small text-muted ms-1" data-ts="{{ ts }}" data-df="{{ df_dayjs_m }}">
-      {{ post.date | date: df_strftime_m }}
-    </span>
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-  </li>
-
-  {% if forloop.last %}</ul>{% endif %}
-
-{% endfor %}
-
-</div>
+<html>
+  <ul class="timeline">
+      {% for post in posts %}
+        <li class="timeline-item right">
+          <div class="timeline-content">
+              <strong class="post-date">{{ post.date | date: "%B %d, %Y" }}</strong>
+              <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+              <div class="post-excerpt">
+                {{ post.excerpt | markdownify }} <!-- Ändere die Anzahl der Wörter nach Bedarf -->
+              </div>
+          </div>
+        </li>
+      {% endfor %}
+  </ul>
+</html>

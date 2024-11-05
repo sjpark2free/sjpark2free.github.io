@@ -2,7 +2,7 @@
 layout: page
 title: 'Tag/Category Index'
 ---
-
+<html>
 {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
 
 {%- capture site_tags -%}
@@ -66,3 +66,4 @@ title: 'Tag/Category Index'
     </div>
 {%- endfor -%}
 </div>
+</html>

@@ -10,6 +10,7 @@ layout: null
 
 
 
+
 :root {
   /* config file CSS variables */
   --page-col: {{ site.page-col | default: "#FFFFFF" }};

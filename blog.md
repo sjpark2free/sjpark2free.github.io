@@ -7,6 +7,8 @@ subtitle: Why you'd want to go on a date with me
 <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
 <ul class="posts-list list-unstyled" role="list">
   {% for post in posts %}
+          {% for tag in post.tags %}
+             {% if tag != "Project" %}
   <li class="post-preview">
     <article>
 
@@ -95,7 +97,9 @@ subtitle: Why you'd want to go on a date with me
 
     </article>
   </li>
-  {% endfor %}
+              {% endif %}
+        {% endfor %}
+    {% endfor %}
 </ul>
 
 

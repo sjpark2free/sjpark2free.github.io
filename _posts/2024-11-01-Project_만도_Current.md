@@ -1,5 +1,5 @@
 ---
-title: 현재 진행 중 : 만도
+title: 현재 진행 중 (만도)
 description: Examples of text, typography, math equations, diagrams, flowcharts, pictures, videos, and more.
 author: seokju.park
 date: 2024-11-01 00:00:00 +0800

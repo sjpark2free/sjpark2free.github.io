@@ -10,8 +10,8 @@ subtitle: 그 동안 진행 하였던 큰 프로젝트들
 
 <html>
   <ul class="timeline">
-     
-            {% for tag in page.tags %}
+      {% for post in posts %}
+            {% for tag in post.tags %}
              {% if tag == "Project" %}
 
                <li class="timeline-item right">
@@ -26,7 +26,7 @@ subtitle: 그 동안 진행 하였던 큰 프로젝트들
 
             {% endif %}
             {% endfor %}
-       
+    {% endfor %}
             
        
        

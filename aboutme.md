@@ -1,13 +1,12 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: 원하지 않았지만 , 어쩌다 보니 프리랜서 개발자 20년.
 ---
 
-My name is Seokju.Park. I have the following qualities:
-
-- I rock a great mustache
-- I'm extremely loyal to my family
+### 저는 프리랜서로 일하고 있는 박석주 라고 합니다.
+- 개발이 좋아 개발자의 길을 선택 했고 모자란 부분을 채우기 위해 공부를 다시 시작 했습니다.
+- 인공지능과 프로젝트 관리에 관심이 많습니다.
 
 
 ### Name & Major

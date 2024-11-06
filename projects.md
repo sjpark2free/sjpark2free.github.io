@@ -11,7 +11,9 @@ subtitle: 그 동안 진행 하였던 큰 프로젝트들
 <html>
   <ul class="timeline">
       {% for post in posts %}
-        <li class="timeline-item right">
+       {% if post.tag == "Project" %}
+       
+               <li class="timeline-item right">
           <div class="timeline-content">
               <strong class="post-date">{{ post.date | date: "%b %d, %Y" }}</strong>
               <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
@@ -20,6 +22,10 @@ subtitle: 그 동안 진행 하였던 큰 프로젝트들
               </div>
           </div>
         </li>
+       
+       
+        {% endif %}
+       
       {% endfor %}
   </ul>
 </html>

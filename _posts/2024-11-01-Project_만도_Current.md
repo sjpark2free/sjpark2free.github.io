@@ -15,7 +15,8 @@ image:
 ---
 
 ## 주 업무
--  PLM 구축(ENOVIA) , SAP ERP, CAA ,BOM/Documents,설계 변경 관리 업무, 모바일 업무 지원
+- PLM 유지 보수
+- PLM 3차 구축(ENOVIA) , SAP ERP, CAA ,BOM/Documents,설계 변경 관리 업무, 모바일 업무 지원
 
 ## 회사 홈페이지 및 이미지
 [만도](https://hlmando.com/ko/main.do)

@@ -101,15 +101,8 @@ comments: true
               {% endif %}
         {% endfor %}
     {% endfor %}
-    
+    </ul>
 
-    
-    
-</ul>
-
-
-
- 
 {% if paginator.total_pages > 1 %}
 <ul class="pagination main-pager">
   {% if paginator.previous_page %}

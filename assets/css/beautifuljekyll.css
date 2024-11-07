@@ -646,7 +646,7 @@ footer .footer-custom-content {
   }
 }
 
-/* Tags page */
+/* Tags/Categories page */
 
 .tag-btn {
   margin: 0.3125rem;
@@ -656,15 +656,15 @@ footer .footer-custom-content {
   font-family: var(--header-font);
 }
 
-#full-tags-list .tag-entry {
+#full-tags-list .tag-entry .category-entry {
   margin: 0 0 0.9375rem 1.5625rem;
 }
 
-#full-tags-list .tag-entry a {
+#full-tags-list .tag-entry  .category-entry  a {
   font-size: 1.25rem;
 }
 
-#full-tags-list .tag-entry .entry-date {
+#full-tags-list .tag-entry  .c-entry   .entry-date {
   color: var(--mid-col);
   font-style: italic;
   font-size: 1rem;

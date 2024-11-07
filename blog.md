@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: page
 title: BLOG
-subtitle: Why you'd want to go on a date with me
+subtitle: 사소한 일상 또는 개발 이야기...
 comments : false
 ---
 {% assign posts = paginator.posts | default: site.posts %}

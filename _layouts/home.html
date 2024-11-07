@@ -1,7 +1,6 @@
 ---
 layout: page
 ---
-
 {{ content }}
 
 {% assign posts = paginator.posts | default: site.posts %}
@@ -100,7 +99,7 @@ layout: page
                   <i class="far fa-folder-open fa-fw me-1"></i>
                   <span class="categories">
                     {% for category in post.categories %}
-                      {{ category }}
+                     <!--  {{ category }} -->
                       {%- unless forloop.last -%},{%- endunless -%}
                       <li class="list-inline-item">
             <a href="{{ '/tags' | absolute_url }}#{{- tag -}}">{{- category -}}</a>

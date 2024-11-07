@@ -2,7 +2,7 @@
 layout: post
 title: BLOG
 subtitle: Why you'd want to go on a date with me
-
+comments : false
 ---
 {% assign posts = paginator.posts | default: site.posts %}
 <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->

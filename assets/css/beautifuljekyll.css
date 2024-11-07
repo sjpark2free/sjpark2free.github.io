@@ -664,7 +664,7 @@ footer .footer-custom-content {
   font-size: 1.25rem;
 }
 
-#full-tags-list .tag-entry  .c-entry   .entry-date {
+#full-tags-list .tag-entry  .category-entry   .entry-date {
   color: var(--mid-col);
   font-style: italic;
   font-size: 1rem;

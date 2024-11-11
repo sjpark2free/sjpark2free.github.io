@@ -100,7 +100,7 @@ layout: page
                   <span class="categories">
                     {% for category in post.categories %}
                      <!--  {{ category }} -->
-                      {%- unless forloop.last -%},{%- endunless -%}
+                      <!--{%- unless forloop.last -%},{%- endunless -%}  -->
                       <li class="list-inline-item">
             <a href="{{ '/tags' | absolute_url }}#{{- tag -}}">{{- category -}}</a>
           </li>

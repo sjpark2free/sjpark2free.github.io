@@ -3,8 +3,8 @@ title: Text and Typography
 description: Examples of text, typography, math equations, diagrams, flowcharts, pictures, videos, and more.
 author: cotes
 date: 2020-02-26 00:00:00 +0800
-categories: [Blogging, Demo]
-tags: [typography]
+categories: [Blogging, Private]
+tags: [Private]
 pin: true
 math: true
 mermaid: true

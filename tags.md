@@ -48,7 +48,7 @@ title: 'Tag/Category Index'
     <a href="#{{- category -}}" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;{{- category -}}&nbsp;({{site.categories[category].size}})</a>
 {%- endfor -%}
 
-<div id="full-categories-list">
+<div id="full-tags-list">
 {%- for category in categories_list -%}
     <h2 id="{{- category -}}" class="linked-section">
         <i class="fas fa-list" aria-hidden="true"></i>

@@ -56,7 +56,7 @@ title: 'Tag/Category Index'
     </h2>
     <div class="post-list">
         {%- for post in site.categories[category] -%}
-            <div class=" .category-entry">
+            <div class="category-entry">
                 <a href="{{ post.url | relative_url }}">{{- post.title | strip_html -}}</a>
                 <div class="entry-date">
                     <time datetime="{{- post.date | date_to_xmlschema -}}">{{- post.date | date: date_format -}}</time>

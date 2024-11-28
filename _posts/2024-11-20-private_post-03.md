@@ -31,14 +31,18 @@ image:
 ```
 
 
+
 이렇게 한번 누르면 숨김 파일이 나타나고, 또다시 누르면 숨김 파일이 파인더에서 안보이게 됩니다. 쉽죠?
 
-
 (숨김 파일이 안보입니다. 여기서 [Command] + [Shift] + [.] 을 누르면?)
+![Finder](https://sjpark2free.github.io/assets/img/post/2024-11-20-private_post-03/Before.jpg)
 
 (숨김 파일들이 나타납니다. 또 다시 [Command] + [Shift] + [.]을 누르면?)
+![Finder](https://sjpark2free.github.io/assets/img/post/2024-11-20-private_post-03/After.jpg)
+
 
 (다시 숨김 파일이 안보입니다.)
+![Finder](https://sjpark2free.github.io/assets/img/post/2024-11-20-private_post-03/Before.jpg)
 
 
 유용하게 사용하길 바랍니다.

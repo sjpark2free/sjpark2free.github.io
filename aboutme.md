@@ -18,6 +18,7 @@ subtitle: 어쩌다 보니 프리랜서 개발자 20년.
 ### Career & Activities
 
 * 서울사이버대학교 3학년 재학중
+* 만도 근무 중
 
 ### Current Interest
 

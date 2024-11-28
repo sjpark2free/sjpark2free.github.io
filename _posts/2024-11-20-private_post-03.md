@@ -38,12 +38,11 @@ image:
 ![Finder](https://sjpark2free.github.io/assets/img/post/2024-11-20-private_post-03/Before.png)
 
 (숨김 파일들이 나타납니다. 또 다시 [Command] + [Shift] + [.]을 누르면?)   
-![Finder](https://sjpark2free.github.io/assets/img/post/2024-11-20-private_post-03/After. png)
+![Finder](https://sjpark2free.github.io/assets/img/post/2024-11-20-private_post-03/After.png)
 
 
 (다시 숨김 파일이 안보입니다.)   
-![Finder](https://sjpark2free.github.io/assets/img/post/2024-11-20-private_post-03/Before. png)
+![Finder](https://sjpark2free.github.io/assets/img/post/2024-11-20-private_post-03/Before.png)
 
 
 유용하게 사용하길 바랍니다.
-
